@@ -2,4 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  require 'custom.plugins.catpuccin-theme',
+  require 'custom.plugins.dashboard',
+  require 'custom.plugins.bufferline',
+}

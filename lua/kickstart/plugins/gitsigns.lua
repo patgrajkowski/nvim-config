@@ -14,7 +14,7 @@ return {
           opts.buffer = bufnr
           vim.keymap.set(mode, l, r, opts)
         end
-
+        gitsigns.toggle_current_line_blame()
         -- Navigation
         map('n', ']c', function()
           if vim.wo.diff then
